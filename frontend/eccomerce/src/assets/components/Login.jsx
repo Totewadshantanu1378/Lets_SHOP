@@ -26,6 +26,7 @@ const Login = () => {
       alert("User Does not exists");
     }
   };
+
   return (
     <div className="flex items-center justify-center h-screen bg-gray-100">
       <Toaster position="top-center" />

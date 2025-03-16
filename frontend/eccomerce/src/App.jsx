@@ -87,8 +87,6 @@ const App = () => {
      <RouterProvider router={router} />
     </div>
     </CartProvider>
-    // due to cartprovider all the pages inside the app can access the cart 
-    
     </ProductProvider>
   )
 }
